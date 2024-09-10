@@ -5,6 +5,10 @@ VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonopolyStorage", "MonopolyStorage\MonopolyStorage.csproj", "{19872476-2477-499F-82F6-579448B3BFAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonopolyStorage.Core", "MonopolyStorage.Core\MonopolyStorage.Core.csproj", "{222C907B-3851-4CE1-857C-7DCC3091420D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonopolyStorage.Tests", "MonopolyStorage.Tests\MonopolyStorage.Tests.csproj", "{8C8B2896-626A-45D3-945F-B755904210FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{19872476-2477-499F-82F6-579448B3BFAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19872476-2477-499F-82F6-579448B3BFAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19872476-2477-499F-82F6-579448B3BFAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{222C907B-3851-4CE1-857C-7DCC3091420D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{222C907B-3851-4CE1-857C-7DCC3091420D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{222C907B-3851-4CE1-857C-7DCC3091420D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{222C907B-3851-4CE1-857C-7DCC3091420D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C8B2896-626A-45D3-945F-B755904210FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8B2896-626A-45D3-945F-B755904210FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C8B2896-626A-45D3-945F-B755904210FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C8B2896-626A-45D3-945F-B755904210FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
