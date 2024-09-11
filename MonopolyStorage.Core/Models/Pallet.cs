@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MonopolyStorage.Core.Models
 {
-    public abstract class Pallet : IPallet
+    public class Pallet : IPallet
     {
         protected readonly List<IBox> _boxes = new List<IBox>();
         public int ID { get; }

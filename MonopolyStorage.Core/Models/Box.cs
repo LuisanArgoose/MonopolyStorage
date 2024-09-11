@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MonopolyStorage.Core.Models
 {
-    public abstract class Box : IBox
+    public class Box : IBox
     {
         public Box(int id, double width, double height, double depth, double weight)
         {
